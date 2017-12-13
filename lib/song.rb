@@ -16,13 +16,13 @@ class Song
       song #returns the song
     end
 
-def new_by_name(song_name) #takes in the string name of a song
+def self.new_by_name(song_name) #takes in the string name of a song
     song = self.new #returns a song instance
     song.name = song_name #with that name set as its name property
     song #returns instance of song
   end
 
-  def create_by_name(song_name)
+  def self.create_by_name(song_name)
   song = self.create
   song.name = song_name
   song
