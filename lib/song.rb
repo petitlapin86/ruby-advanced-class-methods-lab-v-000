@@ -28,7 +28,5 @@ def self.new_by_name(song_name) #takes in the string name of a song
    song
  end
 
-end
-
 
 end #end class Song
